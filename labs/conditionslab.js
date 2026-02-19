@@ -48,4 +48,4 @@ function Description(Grades) {
             break;
     }
 }
-Description('o');
+Description('A');
