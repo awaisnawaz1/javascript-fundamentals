@@ -55,10 +55,10 @@ operators followed by their output.
 function comparisonOperators(a, b)  {
       let equal = a == b
       let notEqual = a != b
-      let strictEqual = a === b
+      let exactEqual = a === b
 
       console.log(`Using == : ${equal}`)
       console.log(`Using != : ${notEqual}`)
-      console.log(`Using === :${strictEqual}`)
+      console.log(`Using === :${exactEqual}`)
 }
 comparisonOperators(10, "10");
