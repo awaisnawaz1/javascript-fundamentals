@@ -21,26 +21,17 @@ utilize the below assignment operators with your parameters.
 %=  
     */
 
-let beta = 20
-let beta2 =10; 
+function plustimemodulus(task1, task2) {
+        task2 += task1;
+        console.log(task2);
 
-function multiplicationAssign()  {
-    beta *= beta2; 
-    console.log("Multiplication *= "+ beta)  
-}
-multiplicationAssign();
+        task2 *= task1;
+        console.log(task2);
 
-function additionassign() {
-    beta -= beta2;  
-    console.log("Addition += " + beta2);
+        task2 %= task1;
+        console.log(task2);
 }
-additionassign();
-
-function modulusAssign(beta2) {
-    beta %= beta2;
-    console.log("Modulus %= "+ beta); 
-}
-modulusAssign(4);
+plustimemodulus(3,9);
 
 
 /* Task 3 ==   Write a function that takes 2 parameters. Using the below comparison operators, assign each to a const
@@ -52,7 +43,7 @@ operators followed by their output.
 */
 
 
-function comparisonOperators(a, b)  {
+function comparisonOperators(a, b) {
       let equal = a == b
       let notEqual = a != b
       let exactEqual = a === b
